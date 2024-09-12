@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class Theather {
+	public static void main(String[] args) {
+		Movie ss = new Movie();
+		Scanner sc = new Scanner(System.in);
+		while(true)
+		{
+			System.out.println("1.Am\t2.Pm\t :: ");
+			
+		}
+	}
+}

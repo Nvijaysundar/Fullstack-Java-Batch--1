@@ -1,0 +1,53 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.displayflex{
+    display: flex;
+}
+
+.nav-bar{
+  margin-top: 10px;
+  padding-top: 2%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 2%;
+  background-color: beige;
+}
+.fa-java{
+   font-size:35px;
+}
+
+#brandpage{
+    width: 20%;
+}
+.menu{
+    width: 50%;
+    justify-content: space-evenly;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+li a{
+    text-decoration: none;
+}
+li a:hover{
+    color: white;
+    background-color: black;
+}
+
+.nav-bar2{
+  padding-top: 2%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 2%;
+  background-color: rgb(160, 160, 113);
+  position: sticky;
+  top: 0%;
+  left: 0%;
+}

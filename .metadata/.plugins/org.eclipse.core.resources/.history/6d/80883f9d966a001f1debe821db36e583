@@ -1,0 +1,7 @@
+
+public class Theather {
+	public static void main(String[] args) {
+		Movie ss = new Movie();
+		
+	}
+}

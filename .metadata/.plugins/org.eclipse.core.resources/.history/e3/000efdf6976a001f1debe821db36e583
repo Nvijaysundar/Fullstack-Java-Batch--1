@@ -1,0 +1,47 @@
+import java.util.HashMap;
+import java.util.Scanner;
+
+public class Theather {
+	public static void main(String[] args) {
+		Movie ss = new Movie();
+		Scanner sc = new Scanner(System.in);
+		while(true)
+		{
+			System.out.println("1.Am\t2.Pm\t :: ");
+			switch(Integer.parseInt(sc.nextLine()))
+			{
+			case 1:
+				//am
+				booktickets(ss.getAm(),sc);
+				break;
+			case 2:
+				booktickets(ss.getPm(),sc);
+				break;
+			}
+		}
+	}
+
+	private static void booktickets(HashMap<Integer, HashMap<Integer, Integer>> show, Scanner sc) {
+		if(checkAvailability(show))
+		{
+			displaySeats(show);
+			System.out.println("Seats Available");
+		}
+		else
+			System.out.println("Show is Completely Booked");
+	}
+
+	private static void displaySeats(HashMap<Integer, HashMap<Integer, Integer>> show) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private static boolean checkAvailability(HashMap<Integer, HashMap<Integer, Integer>> show) {
+		for(int i=1;i<=3;i++)
+		{
+			if(show.get(i).containsValue(0))
+				return true;
+		}
+		return false;
+	}
+}

@@ -1,0 +1,12 @@
+INDEX VERSION 1.134+E:\Java Full stack - Batch 1\.metadata\.plugins\org.eclipse.jdt.core
+118610938.index
+1865797976.index
+553211010.index
+3662419719.index
+229738860.index
+981837304.index
+190966127.index
+2924628858.index
+2510609146.index
+3562556756.index
+2499534516.index

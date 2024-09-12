@@ -1,0 +1,6 @@
+import java.util.HashMap;
+
+public class Movie {
+	private HashMap<Integer,HashMap<Integer,Integer>> am = null;
+	private HashMap<Integer,HashMap<Integer,Integer>> pm = null;
+}

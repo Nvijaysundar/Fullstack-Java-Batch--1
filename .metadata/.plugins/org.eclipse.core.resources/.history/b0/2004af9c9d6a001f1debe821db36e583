@@ -1,0 +1,10 @@
+package cursorstatements;
+
+import java.util.Vector;
+
+public class Example {
+	public static void main(String[] args) {
+		Vector<Integer> v = new Vector<>();
+		
+	}
+}

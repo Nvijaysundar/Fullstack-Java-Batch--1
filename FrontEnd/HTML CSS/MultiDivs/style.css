@@ -1,0 +1,38 @@
+.hostingplatforms{
+    text-align: center;
+}
+
+.displayflex{
+    display: flex;
+}
+
+.hostingtypes{
+    margin: 15px 300px 15px 300px;
+    justify-content: space-around;
+}
+
+.type{
+    padding: 60px 20px 40px 20px;
+    margin: 20px 20px 0 20px;
+    border: 2px;
+    box-shadow: 5px 5px 5px 5px #bdbcbc;
+    border-color: #7CBD1E;
+    border-style: solid;
+    font-family:'Helvetica Neue';
+}
+
+.type i{
+    font-size: 35px;
+    color: #7CBD1E;
+    padding: 20px;
+}
+.type h2{
+    font-family:'Courier New';
+}
+
+.type button{
+    padding: 10px 15px;
+    color: #fff;
+    background-color: #7CBD1E;
+    border: none;
+}

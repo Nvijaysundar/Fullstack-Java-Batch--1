@@ -1,0 +1,9 @@
+package setInterface;
+
+import java.util.HashSet;
+
+public class Example1 {
+	public static void main(String[] args) {
+		HashSet<Integer> ob = new HashSet<Integer>();
+	}
+}

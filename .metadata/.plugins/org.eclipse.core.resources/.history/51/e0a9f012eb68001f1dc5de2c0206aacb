@@ -1,0 +1,21 @@
+package setInterface;
+
+public class Product {
+	String name,id;
+	float price;
+	int qty;
+	public Product(String name, String id, float price, int qty) {
+		this.name = name;
+		this.id = id;
+		this.price = price;
+		this.qty = qty;
+	}
+	@Override
+	public String toString() {
+		return "Product [name=" + name + ", id=" + id + ", price=" + price + ", qty=" + qty + "]";
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+}

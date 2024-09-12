@@ -1,0 +1,7 @@
+FileReader class:
+	This class is from java.io package and which is used to find the file and read character Stream data 
+FileReader fr = new FileReader(“fPath&fName”)
+
+FileWriter class: 
+	This class is from java.io package and which is used to create a new file and opens the file to write Character Stream 
+FileWriter fw = new FileWriter(“fPath&fName”)
